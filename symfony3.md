@@ -15,3 +15,7 @@ All the above commands must be called as parameters to the Symfony console, wich
 - **Create new database (using config from app/config/parameters.yml):** `doctrine:database:create`
 
 - **Drop database:** `doctrine:database:drop --force`
+
+- **Create Entity:** `doctrine:generate:entity`
+
+- **Update database schema (with --force or --dump-sql, not recommended for production):** `doctrine:schema:update`
