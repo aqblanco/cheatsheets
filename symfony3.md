@@ -1,3 +1,6 @@
+Symfony 3 Cheatsheet
+====================
+
 Symfony's console
 -----------------
 
@@ -5,6 +8,10 @@ All the above commands must be called as parameters to the Symfony console, wich
 
 `php bin/console`
 
-Start Symfony server: `server:run`
+- **Start Symfony server:** `server:run`
 
-Generate new bundle: `generate:bundle`
+- **Create new bundle:** `generate:bundle`
+
+- **Create new database (using config from app/config/parameters.yml):** `doctrine:database:create`
+
+- **Drop database:** `doctrine:database:drop --force`
