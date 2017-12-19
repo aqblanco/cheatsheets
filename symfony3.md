@@ -4,7 +4,7 @@ Symfony 3 Cheatsheet
 Symfony's console
 -----------------
 
-All the above commands must be called as parameters to the Symfony console, wich, with no parameters, will show the help.
+All the below commands must be called as parameters to the Symfony console, wich, with no parameters, will show the help.
 
 `php bin/console`
 
