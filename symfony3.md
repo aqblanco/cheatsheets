@@ -19,3 +19,10 @@ All the above commands must be called as parameters to the Symfony console, wich
 - **Create Entity:** `doctrine:generate:entity`
 
 - **Update database schema (with --force or --dump-sql, not recommended for production):** `doctrine:schema:update`
+
+- **Generate missing getter and setter methods for a entity/bundle/namespace:** `doctrine:generate:entities` *name*
+
+- **Create a form class from an entity:** `generate:doctrine:form` *entity*
+
+- **Create CRUD for an entity:** `generate:doctrine:crud --entity=` *entity* ` --format=annotation --with-
+write --no-interaction`
