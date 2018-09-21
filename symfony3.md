@@ -26,3 +26,5 @@ All the below commands must be called as parameters to the Symfony console, wich
 
 - **Create CRUD for an entity:** `generate:doctrine:crud --entity=` *entity* ` --format=annotation --with-
 write --no-interaction`
+
+- **Create a form class for an entity:** `generate:doctrine:form ` *entity*
